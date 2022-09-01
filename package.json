@@ -1,0 +1,23 @@
+{
+  "name": "notesrsaved",
+  "version": "1.0.0",
+  "description": "an app to save notes on a server",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l1keafox/notesRSaved.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l1keafox/notesRSaved/issues"
+  },
+  "homepage": "https://github.com/l1keafox/notesRSaved#readme"
+}

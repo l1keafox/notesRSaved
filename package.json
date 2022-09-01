@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/l1keafox/notesRSaved/issues"
   },
-  "homepage": "https://github.com/l1keafox/notesRSaved#readme"
+  "homepage": "https://github.com/l1keafox/notesRSaved#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }

@@ -3,7 +3,7 @@
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  Web application that writes and saves notes on a server.
+  Web application that writes and saves notes in a local database.
   
   
   ## Table of Contents 
@@ -21,12 +21,13 @@
 
 
   
-  ![Website](/assets/images/readme.PNG)
+  ![Website](readme.PNG)
   
-  ## Installation 
-   1. Download repo 
- 2. Run "node index.js"
-  
+## Installation 
+1. Download repo 
+2. "$ NPM install" dependencies
+3. node server.js
+4. Go to server website ("localhost:4269").
   
   ## Contributing 
   We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's: 

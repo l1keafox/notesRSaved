@@ -30,7 +30,7 @@ router.post('/', async(req,res) => {
     console.log("DONE");
 });
 
-
+/*
 router.delete('/:id',async (req,res) => {
     console.log(`Request to get database ${req.method}`,req.params.id);
     data = await readFromFile("./db/db.json");
@@ -52,7 +52,7 @@ router.delete('/:id',async (req,res) => {
     console.log();
     writeToFile( `./db/db.json`, arrayOfNotes);
     res.json("All done" );
-});
+}); */
 
 
 module.exports = router;

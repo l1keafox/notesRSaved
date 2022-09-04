@@ -4,7 +4,7 @@ const database = require('../../db/db.json');
 const { readFromFile, writeToFile, readAndAppend } = require('../../helpers/fsUtils');
 
 router.get('/',async (req,res) => {
-    console.log(`Request to get database ${req.method}`);
+    console.log(`Request to get database ${req.method} BLAH`);
     data = await readFromFile("./db/db.json");
     res.json( JSON.parse(data) );
 
@@ -30,7 +30,6 @@ router.post('/', async(req,res) => {
     console.log("DONE");
 });
 
-/*
 router.delete('/:id',async (req,res) => {
     console.log(`Request to get database ${req.method}`,req.params.id);
     data = await readFromFile("./db/db.json");
@@ -52,7 +51,7 @@ router.delete('/:id',async (req,res) => {
     console.log();
     writeToFile( `./db/db.json`, arrayOfNotes);
     res.json("All done" );
-}); */
+}); 
 
 
 module.exports = router;

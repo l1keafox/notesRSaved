@@ -90,6 +90,7 @@ const handleNoteDelete = (e) => {
   }
 console.log('deleteing note id',noteId);
   deleteNote(noteId).then(() => {
+    console.log("delete?");
     getAndRenderNotes();
     renderActiveNote();
   });

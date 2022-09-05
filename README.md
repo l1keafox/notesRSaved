@@ -17,7 +17,7 @@
   ## Usage 
    Run 'node index.js' and answer the prompts given
   
-* <a href='https://l1keafox.github.io/notesRSaved/'  target="_blank"> Click here for deployment </a> 
+* <a href='https://fast-eyrie-56104.herokuapp.com/'  target="_blank"> Click here for deployment </a> 
 
 
   
